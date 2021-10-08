@@ -28,5 +28,23 @@ export const SearchButton = styled.TouchableOpacity`
     align-items: center;
     justify-content: center;
 `;
+export const ContainerBanner = styled.TouchableOpacity``;
 
+export const Banner = styled.Image`
+    
+    height: 200px;
+    margin: 10px 14px;
+    border-radius: 7px;
+`;
 
+export const SlideContainer = styled.FlatList`
+    margin-left: 14px;
+`;
+
+export const Title = styled.Text`
+    font-size: 25px;
+    color:#fff;
+    font-weight: bold;
+    margin: 15px 0;
+    margin-left: 14px;
+`;
